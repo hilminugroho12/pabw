@@ -1,0 +1,53 @@
+#btn-tambah{
+    float: right;
+    text-decoration: none;
+    color:white;
+    background: rgb(53, 114, 245);
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+#btn-edit{
+    text-decoration: none;
+    color:white;
+    background: rgb(57, 166, 255);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+#btn-hapus{
+    text-decoration: none;
+    color:white;
+    background: red;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+#judul{
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#form-wrapper{
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    min-width: 400px;
+    max-width: 1000px;
+    background-image: url(../asset/bg.svg);
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form{
+    padding: 48px 10px 12px;
+    height: fit-content;
+    width: 600px;
+    background:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
