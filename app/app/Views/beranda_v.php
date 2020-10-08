@@ -15,13 +15,13 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--CUSTOM CSS-->
         <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css');?>">
-        <title>PT. PIN</title>
+        <title>IPB UNIVERSITY</title>
     </head>
     <body>        
         <!--MENU-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">PT. PIN INDONESIA</a>
+                <a class="navbar-brand" href="#">IPB UNIVERSITY</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <!-- <span class="fa fa-user"></span> -->
@@ -33,22 +33,25 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Program Studi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mahasiswa</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Data Master
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Agama</a>
+                        <a class="dropdown-item" href="#">Hobi</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    </li> -->
                     </ul>
                     <!-- <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -59,11 +62,7 @@
         </nav>
 
         <!--BANNER-->
-        <div class="container">            
-            <div class="jumbotron">
-                <h1>PT. PIN</h1>
-            </div>            
-
+        <div class="container">                                 
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -118,6 +117,12 @@
 
                 <div class="col col-md-3 col-sm-6 d-none d-md-block bg-dark">
                     Col4
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Beranda</h2>
                 </div>
             </section>
             
