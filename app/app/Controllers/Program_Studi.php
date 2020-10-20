@@ -13,7 +13,30 @@ class Program_Studi extends BaseController
     {
         $this->session=\Config\Services::session();
 
-        $db = \Config\Database::connect();
+        // $db = \Config\Database::connect();
+
+        $custom = [
+                    'DSN'      => '',
+                    'hostname' => 'sql313.epizy.com', // 'localhost',
+                    'username' => 'epiz_26770241', // '',
+                    'password' => 'fvnCbNffge', //'',
+                    'database' => 'epiz_26770241_ipb', // '', 
+                    'DBDriver' => 'MySQLi',
+                    'DBPrefix' => '',
+                    'pConnect' => false,
+                    'DBDebug'  => (ENVIRONMENT !== 'production'),
+                    'cacheOn'  => false,
+                    'cacheDir' => '',
+                    'charset'  => 'utf8',
+                    'DBCollat' => 'utf8_general_ci',
+                    'swapPre'  => '',
+                    'encrypt'  => false,
+                    'compress' => false,
+                    'strictOn' => false,
+                    'failover' => [],
+                    'port'     => 3306,
+            ];
+        $db = \Config\Database::connect($custom);
 
         $this->prodi = new Program_Studi_Model($db);
     }
